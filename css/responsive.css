@@ -1,0 +1,64 @@
+
+        /*================================
+            RESPONSIVE MENU
+         ================================*/
+
+/*================================
+RESPONSIVE BUTTON
+================================*/
+#responsive{
+    display: none;/*HIDE THE BUTTON*/
+    color:#fff;
+    cursor: pointer;
+    padding: 5px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+#responsive:hover{
+    color: #DD362C;
+}
+/*================================
+MEDIA QUERYS - 660px
+================================*/
+@media ( max-width: 660px){
+	    
+#responsive{display:block;} /*SHOW THE BUTTON*/
+ header{
+        z-index: 1000;
+        position: fixed;
+        margin-top: 13px;}
+    
+header nav {border-radius: 10px;}
+    
+header nav ul{float: none;}
+    
+header nav ul li{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #fff;}
+   
+header nav ul li:hover{
+     transition: width 2s, height 4s;
+     background-color: #fff;
+     width: 50%;
+     height: 35px;}
+}
+/*================================
+MEDIA QUERYS - 260px
+================================*/
+@media ( max-width: 260px){
+
+header{
+    left: 10px;
+    width:100%;}
+
+header nav {margin-left: 3px;}
+       
+header nav ul li:hover{
+     transition: width 2s, height 4s;/*MENU EFFECTS*/
+     background-color: #fff;
+     width: 90%;
+     height: 35px;}
+
+}

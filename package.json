@@ -1,0 +1,38 @@
+{
+  "name": "city",
+  "version": "1.0.0",
+  "description": "Responsive Html5 webSite Template powered with Boostrap. ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabojkz/City-Template.git"
+  },
+  "keywords": [
+    "Html5",
+    "css",
+    "Javascritp",
+    "Boostrap",
+    "Template",
+    "Theme",
+    "WebSite",
+    "Design",
+    "City"
+  ],
+  "author": "Gabriel Komander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabojkz/City-Template/issues"
+  },
+  "homepage": "https://github.com/gabojkz/City-Template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}
